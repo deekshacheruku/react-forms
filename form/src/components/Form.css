@@ -1,0 +1,182 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.subconatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    height: 550px;
+}
+
+.Number, .names,.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 8px 0px 8px 0px;
+    width: 380px;
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    color: whitesmoke;
+}
+
+.horizontalline{
+    margin-top: 10px;
+    border: 1px solid gray;
+    width: 120px;
+    height: 0px;
+}
+
+.names{
+    width: 410px;
+}
+
+.white{
+    width: 70px;
+    border: 0px solid whitesmoke;
+}
+
+.buttoncontainer{
+    margin-top: 15px;
+}
+
+.button{
+    border: 0px solid transparent;
+    font-size: 18px;
+    background-color: whitesmoke;
+    color: gray;
+    width: 300px;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.button:focus{
+    outline: none;
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+
+#displaycontents{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 25px; 
+    height: 350px;  
+}
+
+input,select,.Currency{
+    margin: 8px;
+    padding: 0px 3px 0px 5px;
+    border: none;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 50px;
+    border: 1px solid gray;
+    font-size: 18px;
+    outline: none;
+}
+
+.radiobutton{
+    display: flex;
+    flex-direction: column;
+}
+
+.radiosubcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.radio{
+    padding: 5px;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.labelheader{
+    font-size: 20px;
+}
+
+label,.Currency{
+    text-align: start;
+    color: gray;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+select{
+    width: 410px;
+}
+
+.buttoncontainer2{
+    display: flex;
+    flex-direction: row;
+}
+
+.previousbutton,.nextbutton,.displaybutton{
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.previousbutton:focus,.nextbutton:focus,.displaybutton{
+    outline: none;
+}
+
+.previousbutton,.hidebutton{
+    display: none;
+}
+
+.previousbuttonactive{
+    display: block;
+    background-color: whitesmoke;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.activebox{
+    background-color: blueviolet;
+}
+.activehorizontalline{
+    border: 1px solid blueviolet;
+}
+
+.activetext{
+    color:blueviolet
+}
+
+.displaycontainer{
+    list-style: none;
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 40px;
+}
+
+li{
+    padding: 6px;
+}

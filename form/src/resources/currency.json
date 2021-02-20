@@ -1,0 +1,21 @@
+[
+    {"country": "Afghanistan", "currency":"Afghani"},
+    {"country": "Albania", "currency":"Lek"},
+    {"country": "Bhutan", "currency":"Afghani"},
+    {"country": "Benin", "currency":"CFA Franc"},
+    {"country": "Belize", "currency":"Belize dollar"},
+    {"country": "Belarus", "currency":"ruble"},
+    {"country": "Barbados", "currency":"Barbados dollar"},
+    {"country": "Bangladesh", "currency":"Taka"},
+    {"country": "Bahrain", "currency":"dinar"},
+    {"country": "The Bahamas", "currency":"Bahamian dollar"},
+    {"country": "Azerbaijan", "currency":"Manat"},
+    {"country": "Austria", "currency":"Euro"},
+    {"country": "Australia", "currency":"Australian dollar"},
+    {"country": "Armenia", "currency":"Dram"},
+    {"country": "Argentina", "currency":"Peso"},
+    {"country": "Antigua and Barbuda", "currency":"East Caribbean dollar"},
+    {"country": "Angola", "currency":"New Kwanza"},
+    {"country": "Andorra", "currency":"Euro"},
+    {"country": "Algeria", "currency":"Dinar"}
+]
